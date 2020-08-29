@@ -20,6 +20,8 @@
     margin-bottom:20px;
     color:white;
     border-radius:10px 10px 0px 0px;
+   
+    
 }
 #Number-Buttons
 {
@@ -111,11 +113,24 @@
 }
 .CLR
 {
-   /* border:2px solid black;*/
-    display:flex;
-    justify-content:flex-end;
+   
+   display:flex;
+    justify-content:space-between;
+    margin-top:5px;
+ 
 
 }
+.Closing-Braces
+{
+    /*border:2px solid green;*/
+    display:flex;
+
+}
+.Closing-Braces div
+{
+    margin-left:0px;
+}
+
 .CLR-button
 {
    

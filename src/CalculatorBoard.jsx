@@ -113,6 +113,11 @@ class CalculatorBoard extends Component
                         {this.state.display}
                     </div>
                     <div className="container CLR">
+                        <div className="Closing-Braces">
+                            <div ><ValButton  key="(" numberdisplay={this.numberdisplay} value="("/></div>
+                            <div ><ValButton key=")" numberdisplay={this.numberdisplay} value=")"/></div>
+                        </div>
+
                          <div className="CLR-button" onClick={this.clear}>CLR</div>
                     </div>
                       
